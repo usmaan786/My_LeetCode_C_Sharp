@@ -4,8 +4,11 @@ https://leetcode.com/problems/two-sum/description/
 */
 
 /*
-1. initialize Dictionary to hold value of differences between target and current number
-2. 
+1. initialize Dictionary to store each number
+2. Iterate through the nums array
+3. Find the difference with target -  current number (this will equal the number we need to reach the target)
+4. Check the Dictionary to see if the number has been previously stored, if so then the answer is found. Return int array
+5. If the loop ends then return empty array
 */
 
 public class Solution {
